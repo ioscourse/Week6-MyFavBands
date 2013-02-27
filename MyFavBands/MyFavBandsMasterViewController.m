@@ -16,6 +16,7 @@
 @end
 
 @implementation MyFavBandsMasterViewController
+//1) Add synthesize
 @synthesize list;
 
 - (void)awakeFromNib
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+//2) Replace exiting code with below array load
     self.title = @"My Favorite Bands";
     
     NSArray *listArray = [[NSArray alloc] initWithObjects:@"Joe Cocker", @"Leonard Skynard", @"Eagles",@"Journey",@"38 Special", @"Miranda Lambert",@"Little Big Town",@"Band Perry",nil];
@@ -59,15 +62,18 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+//3 Modify Return for menu array
     return [list count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+//4) Modify code to include cell reference
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     cell.textLabel.text = [list objectAtIndex:[indexPath row]];
-    return cell;}
+    return cell;
+}
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -102,6 +108,7 @@
 */
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+//5 Replace existing code with below to setproductname and send to seque object item user clicked on menu
     [segue.destinationViewController  setProductName:[list objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];
 }
 

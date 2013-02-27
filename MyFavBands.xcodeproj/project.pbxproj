@@ -30,10 +30,10 @@
 		12B67D3E16DBC1F2000599AB /* Joe Cocker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D3616DBC1F2000599AB /* Joe Cocker.jpg */; };
 		12B67D3F16DBC1F2000599AB /* Leonard Skynard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D3716DBC1F2000599AB /* Leonard Skynard.jpg */; };
 		12B67D4016DBC1F2000599AB /* Eagles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D3816DBC1F2000599AB /* Eagles.jpg */; };
-		12B67D4116DBC1F2000599AB /* journey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D3916DBC1F2000599AB /* journey.jpg */; };
 		12B67D4216DBC1F2000599AB /* 38 Special.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D3A16DBC1F2000599AB /* 38 Special.jpg */; };
 		12B67D4516DBCEBD000599AB /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D4316DBCEBD000599AB /* ipad.png */; };
 		12B67D4616DBCEBD000599AB /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B67D4416DBCEBD000599AB /* iphone.png */; };
+		12CB715C16DC89F000B27D00 /* Journey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12CB715B16DC89F000B27D00 /* Journey.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,10 +77,10 @@
 		12B67D3616DBC1F2000599AB /* Joe Cocker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Joe Cocker.jpg"; path = "MyFavBands/Joe Cocker.jpg"; sourceTree = "<group>"; };
 		12B67D3716DBC1F2000599AB /* Leonard Skynard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Leonard Skynard.jpg"; path = "MyFavBands/Leonard Skynard.jpg"; sourceTree = "<group>"; };
 		12B67D3816DBC1F2000599AB /* Eagles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Eagles.jpg; path = MyFavBands/Eagles.jpg; sourceTree = "<group>"; };
-		12B67D3916DBC1F2000599AB /* journey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = journey.jpg; path = MyFavBands/journey.jpg; sourceTree = "<group>"; };
 		12B67D3A16DBC1F2000599AB /* 38 Special.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "38 Special.jpg"; path = "MyFavBands/38 Special.jpg"; sourceTree = "<group>"; };
 		12B67D4316DBCEBD000599AB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad.png; path = ../ipad.png; sourceTree = "<group>"; };
 		12B67D4416DBCEBD000599AB /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.png; path = ../iphone.png; sourceTree = "<group>"; };
+		12CB715B16DC89F000B27D00 /* Journey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Journey.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,13 +191,13 @@
 		12B67D3216DBC1C2000599AB /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				12CB715B16DC89F000B27D00 /* Journey.jpg */,
 				12B67D3316DBC1F2000599AB /* Miranda Lambert.jpg */,
 				12B67D3416DBC1F2000599AB /* Little Big Town.jpg */,
 				12B67D3516DBC1F2000599AB /* Band Perry.jpg */,
 				12B67D3616DBC1F2000599AB /* Joe Cocker.jpg */,
 				12B67D3716DBC1F2000599AB /* Leonard Skynard.jpg */,
 				12B67D3816DBC1F2000599AB /* Eagles.jpg */,
-				12B67D3916DBC1F2000599AB /* journey.jpg */,
 				12B67D3A16DBC1F2000599AB /* 38 Special.jpg */,
 			);
 			name = Photos;
@@ -286,10 +286,10 @@
 				12B67D3E16DBC1F2000599AB /* Joe Cocker.jpg in Resources */,
 				12B67D3F16DBC1F2000599AB /* Leonard Skynard.jpg in Resources */,
 				12B67D4016DBC1F2000599AB /* Eagles.jpg in Resources */,
-				12B67D4116DBC1F2000599AB /* journey.jpg in Resources */,
 				12B67D4216DBC1F2000599AB /* 38 Special.jpg in Resources */,
 				12B67D4516DBCEBD000599AB /* ipad.png in Resources */,
 				12B67D4616DBCEBD000599AB /* iphone.png in Resources */,
+				12CB715C16DC89F000B27D00 /* Journey.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +506,7 @@
 				12B67D2E16DBBEBD000599AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12B67D2F16DBBEBD000599AB /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				12B67D3116DBBEBD000599AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
