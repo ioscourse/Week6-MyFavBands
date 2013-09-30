@@ -109,7 +109,8 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
 //5 Replace existing code with below to setproductname and send to seque object item user clicked on menu
-    [segue.destinationViewController  setProductName:[list objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];
+    [segue.destinationViewController   setProductName:[list objectAtIndex:[self.tableView.indexPathForSelectedRow row]]];
+
 }
 
 

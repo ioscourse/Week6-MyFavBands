@@ -430,6 +430,7 @@
 		12B67D2D16DBBEBD000599AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
 				INFOPLIST_FILE = "MyFavBands/MyFavBands-Info.plist";
@@ -443,6 +444,7 @@
 		12B67D2E16DBBEBD000599AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
 				INFOPLIST_FILE = "MyFavBands/MyFavBands-Info.plist";
